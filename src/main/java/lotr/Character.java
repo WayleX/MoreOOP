@@ -21,4 +21,7 @@ public class Character {
     public int getHp(){
         return this.hp;
     }
+    public int getPower(){
+        return this.power;
+    }
 }
