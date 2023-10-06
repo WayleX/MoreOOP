@@ -24,4 +24,16 @@ public class Character {
     public int getPower(){
         return this.power;
     }
+    @Override
+    public String toString(){
+        String s;
+        s = "";
+        s += this.getClass().getSimpleName();
+        s += "{hp=";
+        s += this.hp;
+        s += ", power=";
+        s += this.power;
+        s += "}>";
+        return s;
+    }
 }
