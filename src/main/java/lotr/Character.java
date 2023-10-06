@@ -33,7 +33,7 @@ public class Character {
         s += this.hp;
         s += ", power=";
         s += this.power;
-        s += "}>";
+        s += "}";
         return s;
     }
 }
